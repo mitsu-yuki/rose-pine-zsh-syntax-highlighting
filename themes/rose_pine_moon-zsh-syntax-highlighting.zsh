@@ -1,5 +1,5 @@
 # Rosé Pine Moon theme for zsh-syntax-highlighting
-# Palette reference: https://rosepinetheme.com/palette/
+# Palette reference: Base16 Rosé Pine Moon (https://github.com/edunfelt/base16-rose-pine-scheme)
 
 typeset -gA _rose_pine_moon_palette=(
   base           '#232136'
@@ -10,11 +10,11 @@ typeset -gA _rose_pine_moon_palette=(
   text           '#e0def4'
   love           '#eb6f92'
   gold           '#f6c177'
-  rose           '#ebbcba'
+  rose           '#ea9a97'
   pine           '#3e8fb0'
   foam           '#9ccfd8'
   iris           '#c4a7e7'
-  highlight_low  '#2a283e'
+  highlight_low  '#2a273f'
   highlight_med  '#44415a'
   highlight_high '#56526e'
 )

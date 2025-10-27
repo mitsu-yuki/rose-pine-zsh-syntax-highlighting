@@ -1,10 +1,10 @@
 # Rosé Pine Dawn theme for zsh-syntax-highlighting
-# Palette reference: https://rosepinetheme.com/palette/
+# Palette reference: Base16 Rosé Pine Dawn (https://github.com/edunfelt/base16-rose-pine-scheme)
 
 typeset -gA _rose_pine_dawn_palette=(
   base           '#faf4ed'
   surface        '#fffaf3'
-  overlay        '#f2e9e1'
+  overlay        '#f2e9de'
   muted          '#9893a5'
   subtle         '#797593'
   text           '#575279'
@@ -14,7 +14,7 @@ typeset -gA _rose_pine_dawn_palette=(
   pine           '#286983'
   foam           '#56949f'
   iris           '#907aa9'
-  highlight_low  '#f4ede8'
+  highlight_low  '#fffaf3'
   highlight_med  '#dfdad9'
   highlight_high '#cecacd'
 )

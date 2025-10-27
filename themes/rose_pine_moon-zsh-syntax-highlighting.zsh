@@ -24,14 +24,14 @@ typeset -gA ZSH_HIGHLIGHT_STYLES
 # Core syntax tokens
 ZSH_HIGHLIGHT_STYLES[default]="fg=${_rose_pine_moon_palette[text]}"
 ZSH_HIGHLIGHT_STYLES[unknown-token]="fg=${_rose_pine_moon_palette[love]}"
-ZSH_HIGHLIGHT_STYLES[reserved-word]="fg=${_rose_pine_moon_palette[gold]}"
+ZSH_HIGHLIGHT_STYLES[reserved-word]="fg=${_rose_pine_moon_palette[foam]}"
 ZSH_HIGHLIGHT_STYLES[alias]="fg=${_rose_pine_moon_palette[foam]}"
 ZSH_HIGHLIGHT_STYLES[suffix-alias]="fg=${_rose_pine_moon_palette[foam]}"
 ZSH_HIGHLIGHT_STYLES[builtin]="fg=${_rose_pine_moon_palette[foam]}"
 ZSH_HIGHLIGHT_STYLES[function]="fg=${_rose_pine_moon_palette[iris]}"
 ZSH_HIGHLIGHT_STYLES[command]="fg=${_rose_pine_moon_palette[foam]}"
 ZSH_HIGHLIGHT_STYLES[hashed-command]="fg=${_rose_pine_moon_palette[foam]}"
-ZSH_HIGHLIGHT_STYLES[precommand]="fg=${_rose_pine_moon_palette[gold]},italic"
+ZSH_HIGHLIGHT_STYLES[precommand]="fg=${_rose_pine_moon_palette[foam]},italic"
 ZSH_HIGHLIGHT_STYLES[commandseparator]="fg=${_rose_pine_moon_palette[muted]}"
 
 # Options and parameters
@@ -49,9 +49,9 @@ ZSH_HIGHLIGHT_STYLES[parameter-flag]="fg=${_rose_pine_moon_palette[rose]}"
 ZSH_HIGHLIGHT_STYLES[default-param]="fg=${_rose_pine_moon_palette[muted]}"
 
 # Strings and quotes
-ZSH_HIGHLIGHT_STYLES[single-quoted-argument]="fg=${_rose_pine_moon_palette[pine]}"
+ZSH_HIGHLIGHT_STYLES[single-quoted-argument]="fg=${_rose_pine_moon_palette[gold]}"
 ZSH_HIGHLIGHT_STYLES[single-quoted-argument-unclosed]="fg=${_rose_pine_moon_palette[love]}"
-ZSH_HIGHLIGHT_STYLES[double-quoted-argument]="fg=${_rose_pine_moon_palette[pine]}"
+ZSH_HIGHLIGHT_STYLES[double-quoted-argument]="fg=${_rose_pine_moon_palette[rose]}"
 ZSH_HIGHLIGHT_STYLES[double-quoted-argument-unclosed]="fg=${_rose_pine_moon_palette[love]}"
 ZSH_HIGHLIGHT_STYLES[dollar-double-quoted-argument]="fg=${_rose_pine_moon_palette[foam]}"
 ZSH_HIGHLIGHT_STYLES[dollar-double-quoted-argument-unclosed]="fg=${_rose_pine_moon_palette[love]}"
